@@ -1,0 +1,28 @@
+<%- include('../includes/head.ejs') %>
+    </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <% if (movies.length > 0) { 
+            for (let movie of movies) { %>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="/images/posters/<%= movie.imageName + movie.imageExt %>"
+              class="card-img-top img-fluid"
+              alt="<%= movie.title %>"
+              title="<%= movie.imageName + movie.imageExt %>"
+            />
+            <div class="card-body">
+              <h6><%= movie.title %></h6>
+              <a href="/movies/<%= movie._id %>" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <% }
+        } else { %>
+        <h5>No movies found.</h5>
+        <% } %>
+      </div>
+    </div>
+    <%- include('../includes/end.ejs') %>

@@ -1,0 +1,30 @@
+{
+  "name": "revenue-monster-test",
+  "version": "1.0.0",
+  "description": "Test for Revenue Monster (Backend) - Roberto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertos95/revenue-monster-test.git"
+  },
+  "author": "Roberto Salim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertos95/revenue-monster-test/issues"
+  },
+  "homepage": "https://github.com/robertos95/revenue-monster-test#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.9",
+    "mongoose-type-url": "^1.0.6"
+  }
+}
