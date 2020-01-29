@@ -2,7 +2,7 @@
 Test for Revenue Monster (Backend) - Roberto
 
 # Overview
-An API to retreive movie information from themovieDB's API and save it to local DB + save image locally. Also able to retrieve movie saved in the local DB>
+An API to retreive movie information from themovieDB's API and save it to local DB + save image locally. Also able to retrieve movie saved in the local DB.
 
 # Set up
 1. Clone this repository to local machine.
